@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    margin: 0;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.navbar {
+    margin: auto;
+    width: 50%;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav {
+    background-color: white;
+    color: #3C7526;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    flex-grow: 5;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .25rem;
+    transition: .2s ease-in-out;
+    
+}
+
+.nav li {
+    flex-grow: 5;
+}
+
+.nav a:hover {
+    background-color: #71BF44;
+    color: white;
+}
+
+.nav li.active {
+    background-color: #71BF44;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    margin-top: 6rem;
+}
+
+.info-section {
+    color: #71BF44;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+    margin: 0 auto;
+}
+
+.info-section h2 {
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.info-section p {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    width: 50%;
+}
+
+.has-gradient {
+    color: white;
+}
+
+.info-section .columns {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-section .columns .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-section .columns .column img {
+    margin: auto;
+}
+
+.info-section .columns .column h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.info-section .columns .column p {
+    font-size: medium;
+    padding: 0;
+    margin: 0;
+    width: 90%;
+}
+
+.info-section a {
+    padding: 8px;
+    border: #71BF44 solid 4px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
