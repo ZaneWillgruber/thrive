@@ -1,3 +1,74 @@
-.hero-video .container {
-    
+.hero-video .info-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    color: white;
+    padding-left: 20%;
+    padding-right: 30%;
+    -webkit-text-stroke: .25px black;
+}
+
+.hero-video .info-container .info-header {
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.hero-video .info-container .info-subtext {
+    text-align: left;
+}
+
+.custom-shape-divider-bottom-1695145461 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1695145461 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 328px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1695145461 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.spacer {
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    transform: translateY(-100%);
+    z-index: 49;
+}
+
+.spacer2 {
+    aspect-ratio: 960/100;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -12;
+}
+
+.layer1 {
+    background-image: url('../public/svg_dividers/wave-haikei.svg');
+}
+
+.layer2 {
+    background-image: url('../public/svg_dividers/wave-haikei-green.svg');
 }
