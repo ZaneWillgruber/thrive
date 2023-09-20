@@ -4,6 +4,7 @@ import InfoSection2 from '../components/InfoSection2';
 import WhyJoin from '../components/WhyJoin';
 import "@/styles/global.css"
 import "@/styles/stylesAlt.css"
+import FooterAlt from '@/components/FooterAlt';
 
 const Home = () => {
     return (
@@ -14,6 +15,8 @@ const Home = () => {
             <InfoSection2 />
             <div className='spacer2 layer2'></div>
             <WhyJoin />
+            <div className='spacer3 layer3'></div>
+            <FooterAlt />
         </div>
     );
 }

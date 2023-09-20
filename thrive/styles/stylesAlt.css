@@ -46,7 +46,7 @@
 }
 
 .spacer {
-    aspect-ratio: 960/300;
+    aspect-ratio: 960/100;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -65,10 +65,24 @@
     z-index: -12;
 }
 
+.spacer3 {
+    aspect-ratio: 960/100;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transform: translateY(-50%);
+    z-index: -12;
+}
+
 .layer1 {
     background-image: url('../public/svg_dividers/wave-haikei.svg');
 }
 
 .layer2 {
     background-image: url('../public/svg_dividers/wave-haikei-green.svg');
+}
+
+.layer3 {
+    background-image: url('../public/svg_dividers/wave-haikei-white.svg');
 }

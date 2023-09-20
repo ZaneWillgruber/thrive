@@ -12,7 +12,7 @@ function HeroVideo() {
         playsInline
         poster="poster.jpg" // Add a poster image for mobile devices
       >
-        <source src="../videos/hero_vid2.mp4" type="video/mp4" />
+        <source src="../videos/hero_vid.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
