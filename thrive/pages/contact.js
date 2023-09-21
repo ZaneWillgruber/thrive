@@ -13,7 +13,7 @@ function App() {
             <div className="h-[50vh] bg-hero-gradient-end flex justify-center items-center flex-col p-40">
                 <img src="../images/thrive_logo.png" alt="Logo" />
             </div>
-            <div className="h-[50vh] grid grid-flow-col grid-cols-2">
+            <div className="h-[50vh] grid grid-flow-col grid-cols-3">
                 <div className="bg-black">
                     <GoogleMaps />
                 </div>
@@ -33,8 +33,9 @@ function App() {
                             <p className="pl-2">500 Terry Francine St. San Francisco, CA 94158</p>
                         </div>
                     </div>
+                    
                 </div>
-                {/* {<div className="bg-gray-100 flex flex-col justify-center items-left">
+                <div className="bg-gray-100 flex flex-col justify-center items-left">
                     <div className="m-auto">
                         <h1 className="text-6xl py-5">Quick Pitch</h1>
                         <div className="py-5">
@@ -44,7 +45,7 @@ function App() {
                             <button>test</button>
                         </div>
                     </div>
-                </div>} */}
+                </div>
             </div>
         </div>
     );
