@@ -4,7 +4,6 @@ import React from 'react';
 import AboutPage from '@/components/AboutPage'
 import Navbar3 from "@/components/Navbar3";
 import WhyJoin from "@/components/WhyJoin";
-import BigLetter from "@/components/BigLetter";
 
 function App() {
   const founderContent = ["Hello! My name is Alex. I created Thrive to help people improve their lives and themselves. I struggled with laziness and procrastination in the past, and I realized there are choices I could make that led to me being happier. Little by little I began to realize that the steps needed to live a happier and more fulfilling life could be grouped together and made into a sort of guide.",
