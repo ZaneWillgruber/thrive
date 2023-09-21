@@ -26,18 +26,29 @@ const Button = ({ icon, title, subtext }) => {
         </div>
         <div className="text-center mt-4">
           <h3 className="text-xl font-semibold">{title}</h3>
-          <p className="text-lg text-gray-700">{subtext}</p>
+          <p className="text-lg">{subtext}</p>
         </div>
       </div>
     );
   };
 
-const MyComponent = () => {
+const MyComponent = ({ color }) => {
+  let classNames = 'mx-auto p-8';
+
+  switch (color) {
+    case 'green':
+      classNames += ' bg-hero-gradient-end text-white';
+      break;
+    case 'white':
+      classNames += ' bg-white text-hero-gradient-end';
+      break;
+  }
+
   return (
-    <div className="mx-auto p-8 bg-white rounded-lg">
+    <div className={ classNames }>
       <div className="text-center">
         <h2 className="text-7xl font-semibold">The Thrive Way</h2>
-        <p className="text-gray-600 text-3xl">Provide a general description of the items below and introduce the services you offer. Click on the text box to edit the content.</p>
+        <p className="text-3xl">Provide a general description of the items below and introduce the services you offer. Click on the text box to edit the content.</p>
       </div>
       <div className="mt-6 flex justify-center space-x-6 mx-32">
         <Button
