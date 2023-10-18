@@ -1,5 +1,6 @@
 import React from 'react';
 import AnimHero from './AnimHero';
+import JoinBox from '@/components/JoinBox';
 
 function HeroVideo() {
   return (
@@ -18,8 +19,9 @@ function HeroVideo() {
       </video>
 
       {/* Content */}
-      <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center pb-16">
-      <AnimHero />
+      <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center pb-16 space-x-16">
+          <AnimHero />
+          <JoinBox />
       </div>
       {/* {<div className="info-container">
         <h1 className="info-header text-5xl md:text-7xl font-bold ">Live Your Best Life</h1>

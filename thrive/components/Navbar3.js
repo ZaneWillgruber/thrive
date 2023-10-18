@@ -36,9 +36,9 @@ function Navbar() {
         {/* Add your navigation links or content here */}
         <a href="/about" className="text-white ml-4 hover:text-hero-gradient-end transition-all duration-300 ease-in-out">About</a>
         <a href="/contact" className="text-white ml-4 hover:text-hero-gradient-end transition-all duration-300 ease-in-out">Contact</a>
-        <a href="#" className="text-white ml-4 hover:text-hero-gradient-end transition-all duration-300 ease-in-out">Welcome</a>
-        <a href="#" className="text-white ml-4 hover:text-hero-gradient-end transition-all duration-300 ease-in-out">Join</a>
-        <a href="/" className="text-white ml-4 hover:text-hero-gradient-end transition-all duration-100 ease-in-out">Home</a>
+        <a href="/" className="text-white ml-4 hover:text-hero-gradient-end transition-all duration-300 ease-in-out">Welcome</a>
+        {/* <a href="#" className="text-white ml-4 hover:text-hero-gradient-end transition-all duration-300 ease-in-out">Join</a> */}
+        <a href="/#" className="text-white ml-4 hover:text-hero-gradient-end transition-all duration-100 ease-in-out">Login</a>
       </div>
     </nav>
   );
